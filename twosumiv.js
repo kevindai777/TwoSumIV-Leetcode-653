@@ -42,7 +42,8 @@ tree.addRightNode(tree.root.right.right.right, 810)
 let target = 1310
 
 
-//O(n) solution that iterates over the BST and uses a hashset to keep track of the values.
+//O(n) solution where n is the number of nodes in the binary tree.
+//We iterate over the BST and uses a hashset to keep track of the values.
 //If the complement of the value exists in the hashset, then return true.
 
 let set = new Set()
